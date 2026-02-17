@@ -25,7 +25,7 @@ jobs:
           scope: '@vetrivelan-cp'
 
       - name: Install dependencies
-        run: npm ci  # Use 'ci' for faster, reliable builds in GitHub Actions
+        run: npm i  # Use 'ci' for faster, reliable builds in GitHub Actions
 
       - name: Build project
         run: npm run build
