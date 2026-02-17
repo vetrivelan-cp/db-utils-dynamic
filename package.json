@@ -19,7 +19,9 @@
   },
   "author": "vetrivelan",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@nestjs/mongoose": "^11.0.4"
+  },
   "peerDependencies": {
     "@nestjs/common": "^10.0.0",
     "mongoose": "^8.0.0"
@@ -29,5 +31,4 @@
     "rimraf": "^6.1.2",
     "typescript": "^5.9.3"
   }
-
 }
