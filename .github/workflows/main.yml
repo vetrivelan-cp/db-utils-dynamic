@@ -3,7 +3,7 @@ name: db-utils-dynamic
 on:
   push:
     branches:
-      - main
+      - master
 
 permissions:
   packages: write
